@@ -1,0 +1,49 @@
+@import 'bootstrap/scss/functions';
+
+// variables should go here. After functions and before rest other imports
+
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/helpers';
+@import 'bootstrap/scss/utilities/api';
+
+// Component imports
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/card';
+@import 'bootstrap/scss/modal';
+@import 'bootstrap/scss/close';
+
+header,
+footer {
+  background-color: $white;
+}
+
+.main main {
+  padding: 75px 0px;
+}
+
+.log-text {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .main main {
+    padding: 130px 0px 75px 0px;
+  }
+}
+
+.nav-link.router-link-active {
+  color: $white;
+  background-color: $primary;
+}

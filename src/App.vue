@@ -1,30 +1,32 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="container fixed-top">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <router-link
+        to="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+      >
+        <span class="log-text">News Online</span>
+      </router-link>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
+        <li class="nav-item"><router-link to="/sports" class="nav-link">Sports</router-link></li>
+        <li class="nav-item"><router-link to="/movies" class="nav-link">Movies</router-link></li>
+        <li class="nav-item"><router-link to="/travel" class="nav-link">Travel</router-link></li>
+        <li class="nav-item">
+          <router-link to="/technology" class="nav-link">Technology</router-link>
+        </li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="container main">
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import './assets/styles.scss';
 </style>
