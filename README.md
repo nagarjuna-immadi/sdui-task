@@ -1,5 +1,10 @@
 # sdui-task
 
+## Demo
+```
+This code is deployed to github pages. You can see a working demo at,
+[https://nagarjuna-immadi.github.io/sdui-task/](https://nagarjuna-immadi.github.io/sdui-task/)
+
 ## Project setup
 ```
 npm install
