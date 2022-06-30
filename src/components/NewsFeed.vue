@@ -9,6 +9,7 @@
         @edit="openFormModal(article)"
       />
     </div>
+    <div class="text-center fs-5 my-5" v-if="!news.length">No items found</div>
     <FormModal ref="formModal" />
   </div>
 </template>
