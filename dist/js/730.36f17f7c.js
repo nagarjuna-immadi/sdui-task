@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksdui_task"]=self["webpackChunksdui_task"]||[]).push([[730],{5730:function(s,e,n){n.r(e),n.d(e,{default:function(){return d}});var r=n(3396);const t={class:"py-4 fs-5"},u=(0,r._)("p",null,"Sports News goes here",-1),a=[u];function c(s,e){return(0,r.wg)(),(0,r.iD)("div",t,a)}var i=n(89);const f={},o=(0,i.Z)(f,[["render",c]]);var d=o}}]);
+//# sourceMappingURL=730.36f17f7c.js.map
