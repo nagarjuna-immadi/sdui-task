@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksdui_task"]=self["webpackChunksdui_task"]||[]).push([[732],{2732:function(s,e,n){n.r(e),n.d(e,{default:function(){return l}});var u=n(3396);const r={class:"py-4 fs-5"},t=(0,u._)("p",null,"Technology News goes here",-1),c=[t];function a(s,e){return(0,u.wg)(),(0,u.iD)("div",r,c)}var i=n(89);const o={},f=(0,i.Z)(o,[["render",a]]);var l=f}}]);
+//# sourceMappingURL=732.cf2f6067.js.map
